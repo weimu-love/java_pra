@@ -14,7 +14,7 @@ public class Main {
 		String offset = "诡异";
 
 		Object[] rs = new Object[] { limit, offset };
-		System.out.println(rs);
+		System.out.println(rs[0]);
 	}
 
 	public void method1(final int j) {
