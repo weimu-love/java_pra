@@ -10,7 +10,11 @@ public class Main {
 		int c = 12;
 		char d = '吃';
 		boolean e = false;
-		String fString = "不可描述";
+		String limit = "不可描述";
+		String offset = "诡异";
+
+		Object[] rs = new Object[] { limit, offset };
+		System.out.println(rs);
 	}
 
 	public void method1(final int j) {
